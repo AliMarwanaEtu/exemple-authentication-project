@@ -51,25 +51,31 @@
 
     <!--=== form ===-->
     <div class="signin-form">
-        <h1>OTP Verification</h1>
-        <p>To verify your identity, we will send a code to your student email</p>
-        <div class="form-field">
-            <label for="email">Student Email</label>
-            <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-            <input type="text" placeholder="Enter Here" id="email" name="email" required="">
-        </div>
+        <h1>We have sent your code to your email</h1>
+        <p>Enter the 6 digit code sent to your email</p>
+        <div class="flex-container">
+            <div>2</div>
+            <div>1</div>
+            <div>3</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+          </div>
 
 
 
 
-        <div class="form-field">
-            <input type="submit" value="Get OTP" onclick="submitForm()">
-        </div>
+       
 
     </div>
+   
 
-
-
+    <div class="verification-btn">
+        <input type="submit" value="Verify Your Account" onclick="submitForm()">
+    
+    <p>Didn't get code? <a href="#" class="color-green" style="font-size: larger; color: blue;">Resend</a></p>
+    <a href="#" class="color-green" style="font-size: larger; color: blue;">Change Email</a>
+</div>
 
 
 

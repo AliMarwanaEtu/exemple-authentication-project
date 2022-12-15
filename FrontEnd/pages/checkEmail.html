@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glance | forgot-password</title>
-    <!-- Web Fonts -->
 
-    <!-- CSS Header and Footer -->
-    <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glance | Check Email</title>
+  <!-- Web Fonts -->
 
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="/FrontEnd/css/adventure.css" />
-  </head>
 
-  <body>
-    <header>
-      <!-- THIS NAV BAR IS FOR THE FORM PAGE==================================== -->
-      <nav class="form-navbar">
-        <a href=""
-          ><img
-            src="/FrontEnd/images/glance-logo-main.svg"
-            alt=""
-            class="logo"
-          />
-        </a>
+  <!-- CSS Header and Footer -->
+  <link rel="stylesheet" href="/FrontEnd/css/header.css">
+  <link rel="stylesheet" href="/FrontEnd/css/header.css">
 
-        <button class="form-btn">Sign In</button>
-      </nav>
-    </header>
-    <!-- END OF SIGN IN HEADER SECTION -->
 
-    <div class="main">
-      <!-- SIGN UP PROGRESS============== -->
 
-      <div class="sign-up-progress-container">
-        <img
-          src="/FrontEnd/icons/forgot-password-mail-icon.svg"
-          alt=""
-          class="forgot-password"
-        />
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="/FrontEnd/css/adventure.css">
+</head>
 
-        <h2>Check Your email</h2>
-        <p class="chck-desc">
-          We sent a password reset link to youremail@untitled.com
-        </p>
-      </div>
-      <!-- END OF SIGN UP PROGRESS============== -->
+<body>
+  <!--=== Header Part ===-->
+  <div class="wrapper">
+    <!--=== Header v1 ===-->
+    <div class="header-v1">
+      <!-- Topbar -->
+      <div class="topbar-v1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="top-v1-head">
+                <p style="color: blue; font-size: x-large; float: left;">GLANCE</p>
+                <button class="header-bt">Sign Up</button>
 
-      <!-- FORM SECTION=============================== -->
-      <div class="sign-up-form-warpper">
-        <form action="" name="sign-Up"></form>
-        <div class="outer-form-container">
-          <button type="submit" class="continue-btn">Open Email App</button>
-          <br />
-          <a href=""
-            >Didn't recieve an Email?
-            <span class="sign-in-cta">Click Resend Code</span>
-          </a>
-          <a href="">Back to Login</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mrg-bottom"></div>
       </div>
     </div>
+  </div>
+
+
+  <!--=== Content Part ===-->
+  <section>
+  <div class="container">
+    <!-- Add the icon using the <i> element -->
+        <input type="image" src="/FrontEnd/icons/forgot-password-mail-icon.svg" alt="My icon" />
+        <div class="emailbody">
+        
+            <h1>Check your email</h1>
+            <p>We have sent an email to fridayjohn@untitled.com</p>
+            <button class="verification-btn">Open Email App</button>
+            <p>Didn't receive emai? <a href="#" class="color-green" style="font-size: larger; color: blue;">Click To Resend</a></p>
+            
+
+        </div>
+      </section>
+      <section style="text-align:center">
+        <div class="go-back d-flex">
+          <img src="/FrontEnd/icons/left-arrow-icon.svg" alt="" />
+          <a>Back to Help Center</a>
+        </div>
+        </section>
+        
   </body>
-</html>
+  </html>
